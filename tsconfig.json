@@ -1,15 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "ES2019",
-    "module": "ES2020",
-    "declaration": true,
-    "declarationDir": "dist",
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "skipLibCheck": true,
-    "rootDir": "src"
-  },
-  "include": ["src"]
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "ES2020",
+        "lib": ["ES2020"],
+        "declaration": true,
+        "declarationDir": "dist",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "rootDir": "src"
+    },
+    "include": ["src"]
 }
