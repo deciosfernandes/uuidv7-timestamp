@@ -1,0 +1,46 @@
+{
+  "name": "@deciosfernandes/uuidv7-timestamp",
+  "version": "0.1.0",
+  "description": "Extract epoch timestamp from UUID v7 strings (millis, Date, ISO) for TypeScript/Angular apps.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "clean": "rm -rf dist .turbo cache",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deciosfernandes/uuidv7-timestamp.git"
+  },
+  "keywords": [
+    "uuid",
+    "uuidv7",
+    "timestamp",
+    "typescript",
+    "angular"
+  ],
+  "author": "deciosfernandes",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@types/node": "^20.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.3.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0"
+  }
+}
