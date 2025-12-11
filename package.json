@@ -1,7 +1,9 @@
 {
     "name": "@deciosfernandes/uuidv7-timestamp",
-    "version": "0.1.0",
-    "description": "Extract epoch timestamp from UUID v7 strings (millis, Date, ISO) for TypeScript/Angular apps.",  "type": "module",    "main": "dist/index.cjs.js",
+    "version": "0.1.1",
+    "description": "Extract epoch timestamp from UUID v7 strings (millis, Date, ISO) for TypeScript/Angular apps.",
+    "type": "module",
+    "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
     "files": [
